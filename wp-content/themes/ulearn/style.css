@@ -1,0 +1,70 @@
+/*
+Theme Name: ulearn
+Theme URI: https://ulearn.com/
+Author: Ashir
+Author URI: https://ulearn.com/
+Description:  Simple html to wordpress converted theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ulearn
+*/
+body, html {
+    height: 100%;
+}
+.header {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('images\banner.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-menu {
+    padding-left: 30%;
+}
+.copyright {
+    background-color: #478bca;
+    height: 100px;
+    
+}
+
+.copyRight{
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+}
+.footerLogo {
+        position: absolute;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        margin: 0 0 0 50%;
+}
+.footer img {
+        position: absolute;
+        width: 80%;
+        transform: translate(-50%, -50%);
+}
+
+.contact {
+    padding-right: 30%;
+}
+.footerImage {
+    background-color: grey;
+    height: 150px;
+}
+
+.showCase {
+    align-content: center;
+    padding: 3em 3em 1em 3em;
+}
+
+.showCase button {
+    background: #478bca;
+    color: white;
+    padding: 0.3em 1em 0.3em 1em;
+}
+.showCase blockquote {
+    font-size: 18px;
+}
